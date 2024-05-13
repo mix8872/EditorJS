@@ -1,5 +1,5 @@
 {
-    "name": "mix8872/editor-plugin",
+    "name": "grch/editor-plugin",
     "type": "october-plugin",
     "description": "Most powerful, next generation block styled editor with multilingual support.",
     "require": {
