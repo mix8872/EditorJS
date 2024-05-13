@@ -1,4 +1,4 @@
-<?php namespace ReaZzon\Editor\Console;
+<?php namespace Grch\Editor\Console;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;

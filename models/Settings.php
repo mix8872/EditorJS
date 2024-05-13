@@ -1,10 +1,10 @@
-<?php namespace ReaZzon\Editor\Models;
+<?php namespace Grch\Editor\Models;
 
 use Model;
 
 /**
  * Class Settings
- * @package ReaZzon\Editor\Models
+ * @package Grch\Editor\Models
  * @author Nick Khaetsky, nick@reazzon.ru
  */
 class Settings extends Model

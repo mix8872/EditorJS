@@ -1,4 +1,4 @@
-<?php namespace ReaZzon\Editor\Behaviors;
+<?php namespace Grch\Editor\Behaviors;
 
 use View;
 use EditorJS\EditorJS;
@@ -8,7 +8,7 @@ use \Cms\Classes\Controller;
 
 /**
  * Class ConvertableBehavior
- * @package ReaZzon\Editor\Classes\Behaviors
+ * @package Grch\Editor\Classes\Behaviors
  * @author Nick Khaetsky, nick@reazzon.ru
  */
 class ConvertToHtml extends ConvertableBehavior

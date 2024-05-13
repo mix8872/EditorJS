@@ -1,10 +1,10 @@
-<?php namespace ReaZzon\Editor\Classes\Exceptions;
+<?php namespace Grch\Editor\Classes\Exceptions;
 
 use October\Rain\Exception\ApplicationException;
 
 /**
  * Class PluginErrorException
- * @package ReaZzon\Editor\Classes\Exceptions
+ * @package Grch\Editor\Classes\Exceptions
  */
 class PluginErrorException extends ApplicationException
 {

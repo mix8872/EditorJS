@@ -1,21 +1,21 @@
-<?php namespace ReaZzon\Editor;
+<?php namespace Grch\Editor;
 
 use Backend, Event;
 use System\Classes\PluginBase;
-use ReaZzon\Editor\Console\RefreshStaticPages;
+use Grch\Editor\Console\RefreshStaticPages;
 use Illuminate\Contracts\Routing\ResponseFactory;
-use ReaZzon\Editor\Classes\Event\ProcessMLFields;
-use ReaZzon\Editor\Classes\Exceptions\PluginErrorException;
+use Grch\Editor\Classes\Event\ProcessMLFields;
+use Grch\Editor\Classes\Exceptions\PluginErrorException;
 
-use ReaZzon\Editor\Behaviors\ConvertToHtml;
-use ReaZzon\Editor\Classes\Event\ExtendRainLabBlog;
-use ReaZzon\Editor\Classes\Event\ExtendIndicatorNews;
-use ReaZzon\Editor\Classes\Event\ExtendLovataGoodNews;
-use ReaZzon\Editor\Classes\Event\ExtendRainLabStaticPages;
+use Grch\Editor\Behaviors\ConvertToHtml;
+use Grch\Editor\Classes\Event\ExtendRainLabBlog;
+use Grch\Editor\Classes\Event\ExtendIndicatorNews;
+use Grch\Editor\Classes\Event\ExtendLovataGoodNews;
+use Grch\Editor\Classes\Event\ExtendRainLabStaticPages;
 
 /**
  * Editor Plugin Information File
- * @package ReaZzon\Editor
+ * @package Grch\Editor
  * @author Nick Khaetsky, nick@reazzon.ru
  */
 class Plugin extends PluginBase
@@ -86,7 +86,7 @@ class Plugin extends PluginBase
                 'label' => 'reazzon.editor::lang.settings.menu_label',
                 'description' => 'reazzon.editor::lang.settings.menu_description',
                 'category' => 'reazzon.editor::lang.plugin.name',
-                'class' => 'ReaZzon\Editor\Models\Settings',
+                'class' => 'Grch\Editor\Models\Settings',
                 'permissions' => ['reazzon.editor.access_settings'],
                 'icon' => 'icon-cog',
                 'order' => 500,
@@ -102,8 +102,8 @@ class Plugin extends PluginBase
     public function registerFormWidgets()
     {
         return [
-            'ReaZzon\Editor\FormWidgets\EditorJS' => 'editorjs',
-            'ReaZzon\Editor\FormWidgets\MLEditorJS' => 'mleditorjs',
+            'Grch\Editor\FormWidgets\EditorJS' => 'editorjs',
+            'Grch\Editor\FormWidgets\MLEditorJS' => 'mleditorjs',
         ];
     }
 

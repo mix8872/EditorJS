@@ -1,4 +1,4 @@
-<?php namespace ReaZzon\Editor\Classes\Event;
+<?php namespace Grch\Editor\Classes\Event;
 
 use Backend\Widgets\Form;
 use October\Rain\Events\Dispatcher;
@@ -18,12 +18,12 @@ abstract class AbstractFormExtender
         $this->modelClass = $this->getModelClass();
 
         $this->fieldType = 'editorjs';
-        $this->fieldWidgetPath = 'ReaZzon\Editor\FormWidgets\EditorJS';
+        $this->fieldWidgetPath = 'Grch\Editor\FormWidgets\EditorJS';
 
         if (PluginManager::instance()->hasPlugin('RainLab.Translate')
             && !PluginManager::instance()->isDisabled('RainLab.Translate')) {
             $this->fieldType = 'mleditorjs';
-            $this->fieldWidgetPath = 'ReaZzon\Editor\FormWidgets\MLEditorJS';
+            $this->fieldWidgetPath = 'Grch\Editor\FormWidgets\MLEditorJS';
         }
 
         if ($this->isEnabled()) {

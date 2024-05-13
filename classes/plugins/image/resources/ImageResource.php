@@ -1,11 +1,11 @@
-<?php namespace ReaZzon\Editor\Classes\Plugins\Image\Resources;
+<?php namespace Grch\Editor\Classes\Plugins\Image\Resources;
 
 
-use ReaZzon\Editor\Classes\Plugins\Attaches\Resources\AttachResource;
+use Grch\Editor\Classes\Plugins\Attaches\Resources\AttachResource;
 
 /**
  * Class ImageResource
- * @package ReaZzon\Editor\Classes\Plugins\Image\Resources
+ * @package Grch\Editor\Classes\Plugins\Image\Resources
  */
 class ImageResource extends AttachResource
 {

@@ -1,12 +1,12 @@
-<?php namespace ReaZzon\Editor\Classes\Event;
+<?php namespace Grch\Editor\Classes\Event;
 
 use Backend\Widgets\Form;
 use System\Classes\PluginManager;
-use ReaZzon\Editor\Models\Settings;
+use Grch\Editor\Models\Settings;
 
 /**
  * Class ExtendIndicatorNews
- * @package ReaZzon\Editor\Classes\Event
+ * @package Grch\Editor\Classes\Event
  * @author Nick Khaetsky, nick@reazzon.ru
  */
 class ExtendIndicatorNews extends AbstractFormExtender

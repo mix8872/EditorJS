@@ -1,9 +1,9 @@
-<?php namespace ReaZzon\Editor\Classes\Plugins\LinkTool;
+<?php namespace Grch\Editor\Classes\Plugins\LinkTool;
 
 /**
  * OpenGraph tool
  *
- * @package ReaZzon\Editor\Classes\Plugins\LinkTool;
+ * @package Grch\Editor\Classes\Plugins\LinkTool;
  * @author Scott MacVicar, https://github.com/scottmac/opengraph/blob/master/OpenGraph.php
  */
 class OpenGraph

@@ -1,10 +1,10 @@
-<?php namespace ReaZzon\Editor\FormWidgets;
+<?php namespace Grch\Editor\FormWidgets;
 
 use RainLab\Translate\Models\Locale;
 
 /**
  * MLEditorJS Form Widget
- * @package ReaZzon\Editor\FormWidgets
+ * @package Grch\Editor\FormWidgets
  * @author Nick Khaetsky, rzzsapb@gmail.com
  */
 class MLEditorJS extends EditorJS

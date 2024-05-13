@@ -1,15 +1,15 @@
-<?php namespace ReaZzon\Editor\Classes\Plugins\Attaches;
+<?php namespace Grch\Editor\Classes\Plugins\Attaches;
 
 use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Http\UploadedFile;
-use ReaZzon\Editor\Classes\Exceptions\PluginErrorException;
-use ReaZzon\Editor\Classes\Plugins\Attaches\Resources\AttachResource;
+use Grch\Editor\Classes\Exceptions\PluginErrorException;
+use Grch\Editor\Classes\Plugins\Attaches\Resources\AttachResource;
 use Illuminate\Http\Request;
 use System\Models\File;
 
 /**
  * Image Plugin
- * @package ReaZzon\Editor\Classes\Plugins\Attaches
+ * @package Grch\Editor\Classes\Plugins\Attaches
  * @author Nick Khaetsky, nick@reazzon.ru
  */
 class Plugin

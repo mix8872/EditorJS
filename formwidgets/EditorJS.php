@@ -1,4 +1,4 @@
-<?php namespace ReaZzon\Editor\FormWidgets;
+<?php namespace Grch\Editor\FormWidgets;
 
 use Event;
 use System\Classes\PluginManager;
@@ -6,7 +6,7 @@ use Backend\Classes\FormWidgetBase;
 
 /**
  * EditorJS Form Widget
- * @package ReaZzon\Editor\FormWidgets
+ * @package Grch\Editor\FormWidgets
  * @author Nick Khaetsky, nick@reazzon.ru
  */
 class EditorJS extends FormWidgetBase
@@ -95,7 +95,7 @@ class EditorJS extends FormWidgetBase
             /**
              * Extend config, add your own settings to already existing plugins.
              *
-             * Event::listen(\ReaZzon\Editor\FormWidgets\EditorJS::EVENT_CONFIG_BUILT, function($blocks) {
+             * Event::listen(\Grch\Editor\FormWidgets\EditorJS::EVENT_CONFIG_BUILT, function($blocks) {
              *
              *     foreach($blocks['settings'] as $settings) {
              *          // ..

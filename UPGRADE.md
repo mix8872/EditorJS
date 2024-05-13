@@ -89,7 +89,7 @@ In all your models where editorsjs field converts to html blocks you need to do 
 3. That's it, now you can use your model as it was before.
 
 ## Upgrading To 1.7.0
-Trait `ReaZzon\Editor\Traits\PluginHelper` is deprecated, please use standart Laravel Resources response and `ReaZzon\Editor\Classes\Exceptions\PluginErrorException` for throwing an error.
+Trait `Grch\Editor\Traits\PluginHelper` is deprecated, please use standart Laravel Resources response and `Grch\Editor\Classes\Exceptions\PluginErrorException` for throwing an error.
 
-For third party frontend plugins, use `ReaZzon\Editor\Classes\Middlewares\PluginGroupMiddleware` to add standard access restrictions.
+For third party frontend plugins, use `Grch\Editor\Classes\Middlewares\PluginGroupMiddleware` to add standard access restrictions.
 

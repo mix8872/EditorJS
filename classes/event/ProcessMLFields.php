@@ -1,8 +1,8 @@
-<?php namespace ReaZzon\Editor\Classes\Event;
+<?php namespace Grch\Editor\Classes\Event;
 
 /**
  * Class ProcessMLFields
- * @package ReaZzon\Editor\Classes\Event
+ * @package Grch\Editor\Classes\Event
  * @author Nick Khaetsky, nick@reazzon.ru
  */
 class ProcessMLFields

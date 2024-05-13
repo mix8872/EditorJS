@@ -1,14 +1,14 @@
-<?php namespace ReaZzon\Editor\Classes\Middlewares;
+<?php namespace Grch\Editor\Classes\Middlewares;
 
 use Backend\Facades\BackendAuth;
 use Illuminate\Http\Request;
 use October\Rain\Support\Str;
-use ReaZzon\Editor\Classes\Exceptions\AccessDeniedException;
-use ReaZzon\Editor\Models\Settings;
+use Grch\Editor\Classes\Exceptions\AccessDeniedException;
+use Grch\Editor\Models\Settings;
 
 /**
  * Class PluginGroupMiddleware
- * @package ReaZzon\Editor\Classes\Middlewares
+ * @package Grch\Editor\Classes\Middlewares
  */
 class PluginGroupMiddleware
 {

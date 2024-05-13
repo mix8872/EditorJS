@@ -1,12 +1,12 @@
-<?php namespace ReaZzon\Editor\Classes\Plugins\LinkTool;
+<?php namespace Grch\Editor\Classes\Plugins\LinkTool;
 
 use Illuminate\Http\Request;
-use ReaZzon\Editor\Classes\Exceptions\PluginErrorException;
-use ReaZzon\Editor\Classes\Plugins\LinkTool\Resources\LinkResource;
+use Grch\Editor\Classes\Exceptions\PluginErrorException;
+use Grch\Editor\Classes\Plugins\LinkTool\Resources\LinkResource;
 
 /**
  * LinkTool Plugin
- * @package ReaZzon\Editor\Classes\Plugins\LinkTool
+ * @package Grch\Editor\Classes\Plugins\LinkTool
  * @author Nick Khaetsky, nick@reazzon.ru
  */
 class Plugin

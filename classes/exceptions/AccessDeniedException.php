@@ -1,9 +1,9 @@
-<?php namespace ReaZzon\Editor\Classes\Exceptions;
+<?php namespace Grch\Editor\Classes\Exceptions;
 
 
 /**
  * Class AccessDeniedException
- * @package ReaZzon\Editor\Classes\Exceptions
+ * @package Grch\Editor\Classes\Exceptions
  */
 class AccessDeniedException extends PluginErrorException
 {

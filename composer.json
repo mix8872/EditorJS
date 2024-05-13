@@ -5,7 +5,7 @@
     "require": {
         "ext-json": "*",
         "composer/installers": "~1.0",
-        "mix8872/editor.js": "dev-master"
+        "codex-team/editor.js": "dev-master"
     },
     "license": "MIT",
     "authors": [

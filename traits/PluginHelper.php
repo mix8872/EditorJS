@@ -1,12 +1,12 @@
-<?php namespace ReaZzon\Editor\Traits;
+<?php namespace Grch\Editor\Traits;
 
 use Response;
-use ReaZzon\Editor\Models\Settings;
+use Grch\Editor\Models\Settings;
 
 /**
  * PluginHelper
  *
- * @package ReaZzon\Editor\Traits;
+ * @package Grch\Editor\Traits;
  * @author Nick Khaetsky, nick@reazzon.ru
  * @deprecated
  */
