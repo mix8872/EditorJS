@@ -63,13 +63,13 @@ You are not limited of how many editors can be rendered at one page.
 To implement Editor to your Model, you must prepare a column in a database that is set to text.
 
 1. Create a column with type `text` at your Model table, or use an already existing one.
-2. Add `'ReaZzon.Editor.Behaviors.ConvertToHtml'` to $implement attribute of your model.
+2. Add `'grch.Editor.Behaviors.ConvertToHtml'` to $implement attribute of your model.
 3. Add **get<YourColumnName>HtmlAttribute()** method and paste line of code as in the example below:
 ```
 return $this->convertJsonToHtml($this->YourColumnName);
 ```
 4. Render your field `{{ model.YourColumnName_html|raw }}`
-5. Add editor styles to your page by `<link href="/plugins/reazzon/editor/assets/css/editorjs.css" rel="stylesheet">`
+5. Add editor styles to your page by `<link href="/plugins/grch/editor/assets/css/editorjs.css" rel="stylesheet">`
 
 Example of model:
 ```
@@ -80,7 +80,7 @@ class Post extends Model
     // ...
 
     public $implement = [
-        'ReaZzon.Editor.Behaviors.ConvertToHtml'
+        'Grch.Editor.Behaviors.ConvertToHtml'
     ];
 
     // ...
@@ -121,9 +121,9 @@ After creating new JS scripts with new block type Class, you can go through step
                     ]
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/raw.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/raw.js',
                 ],
-                'view' => 'reazzon.editor::blocks.raw'
+                'view' => 'grch.editor::blocks.raw'
             ],
         ];
     }

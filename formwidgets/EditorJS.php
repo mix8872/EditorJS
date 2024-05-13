@@ -11,7 +11,7 @@ use Backend\Classes\FormWidgetBase;
  */
 class EditorJS extends FormWidgetBase
 {
-    const EVENT_CONFIG_BUILT = 'reazzon.editorjs.config.built';
+    const EVENT_CONFIG_BUILT = 'grch.editorjs.config.built';
 
     /**
      * @inheritDoc

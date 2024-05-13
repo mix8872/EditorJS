@@ -6,61 +6,61 @@ tabs:
     fields:
         warning:
             type: partial
-            tab: 'reazzon.editor::lang.settings.integrations.name'
-            path: $/reazzon/editor/models/settings/warning.htm
+            tab: 'grch.editor::lang.settings.integrations.name'
+            path: $/grch/editor/models/settings/warning.htm
 
         section_standard:
-            label: 'reazzon.editor::lang.settings.integrations.section_standard.name'
-            tab: 'reazzon.editor::lang.settings.integrations.name'
+            label: 'grch.editor::lang.settings.integrations.section_standard.name'
+            tab: 'grch.editor::lang.settings.integrations.name'
             type: section
             span: left
 
         section_custom:
-            label: 'reazzon.editor::lang.settings.integrations.section_custom.name'
-            tab: 'reazzon.editor::lang.settings.integrations.name'
+            label: 'grch.editor::lang.settings.integrations.section_custom.name'
+            tab: 'grch.editor::lang.settings.integrations.name'
             type: section
             span: right
 
         integration_blog:
-            label: 'reazzon.editor::lang.settings.integrations.blog.name'
-            comment: 'reazzon.editor::lang.settings.integrations.blog.comment'
-            tab: 'reazzon.editor::lang.settings.integrations.name'
+            label: 'grch.editor::lang.settings.integrations.blog.name'
+            comment: 'grch.editor::lang.settings.integrations.blog.comment'
+            tab: 'grch.editor::lang.settings.integrations.name'
             type: switch
             span: left
 
         integration_good_news:
-            label: 'reazzon.editor::lang.settings.integrations.good_news.name'
-            comment: 'reazzon.editor::lang.settings.integrations.good_news.comment'
-            tab: 'reazzon.editor::lang.settings.integrations.name'
+            label: 'grch.editor::lang.settings.integrations.good_news.name'
+            comment: 'grch.editor::lang.settings.integrations.good_news.comment'
+            tab: 'grch.editor::lang.settings.integrations.name'
             type: switch
             span: right
 
         integration_static_pages:
-            label: 'reazzon.editor::lang.settings.integrations.static_pages.name'
-            comment: 'reazzon.editor::lang.settings.integrations.static_pages.comment'
-            tab: 'reazzon.editor::lang.settings.integrations.name'
+            label: 'grch.editor::lang.settings.integrations.static_pages.name'
+            comment: 'grch.editor::lang.settings.integrations.static_pages.comment'
+            tab: 'grch.editor::lang.settings.integrations.name'
             type: switch
             span: left
 
         integration_indikator_news:
-            label: 'reazzon.editor::lang.settings.integrations.indikator_news.name'
-            comment: 'reazzon.editor::lang.settings.integrations.indikator_news.comment'
-            tab: 'reazzon.editor::lang.settings.integrations.name'
+            label: 'grch.editor::lang.settings.integrations.indikator_news.name'
+            comment: 'grch.editor::lang.settings.integrations.indikator_news.comment'
+            tab: 'grch.editor::lang.settings.integrations.name'
             type: switch
             span: right
 
         disable_secure_endpoints:
-            label: 'reazzon.editor::lang.settings.editor.disable_secure_endpoints.name'
-            comment: 'reazzon.editor::lang.settings.editor.disable_secure_endpoints.comment'
-            tab: 'reazzon.editor::lang.settings.editor.name'
+            label: 'grch.editor::lang.settings.editor.disable_secure_endpoints.name'
+            comment: 'grch.editor::lang.settings.editor.disable_secure_endpoints.comment'
+            tab: 'grch.editor::lang.settings.editor.name'
             type: switch
             span: left
             default: false
 
         disable_secure_backendauth:
-            label: 'reazzon.editor::lang.settings.editor.disable_secure_backendauth.name'
-            comment: 'reazzon.editor::lang.settings.editor.disable_secure_backendauth.comment'
-            tab: 'reazzon.editor::lang.settings.editor.name'
+            label: 'grch.editor::lang.settings.editor.disable_secure_backendauth.name'
+            comment: 'grch.editor::lang.settings.editor.disable_secure_backendauth.comment'
+            tab: 'grch.editor::lang.settings.editor.name'
             type: switch
             span: left
             default: false

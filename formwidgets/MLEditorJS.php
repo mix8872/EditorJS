@@ -82,7 +82,7 @@ class MLEditorJS extends EditorJS
      */
     protected function getParentViewPath()
     {
-        return base_path().'/plugins/reazzon/editor/formwidgets/editorjs/partials';
+        return base_path().'/plugins/grch/editor/formwidgets/editorjs/partials';
     }
 
     /**
@@ -90,6 +90,6 @@ class MLEditorJS extends EditorJS
      */
     protected function getParentAssetPath()
     {
-        return '/plugins/reazzon/editor/formwidgets/editorjs/assets';
+        return '/plugins/grch/editor/formwidgets/editorjs/assets';
     }
 }

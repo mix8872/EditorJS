@@ -27,10 +27,10 @@ Before:
  */
 public function boot()
 {
-    \Event::listen('reazzon.editor.extend_editor_scripts', function (){
-        return '/plugins/reazzon/testcontent/assets/js/raw.js';
+    \Event::listen('grch.editor.extend_editor_scripts', function (){
+        return '/plugins/grch/testcontent/assets/js/raw.js';
     });
-    \Event::listen('reazzon.editor.extend_editor_tools_config', function (){
+    \Event::listen('grch.editor.extend_editor_tools_config', function (){
         return [
             'raw' => [
                 'class' => 'RawTool'
@@ -54,7 +54,7 @@ public function registerEditorBlocks()
             ],
         ],
         'scripts' => [
-            '/plugins/reazzon/testcontent/assets/js/raw.js'
+            '/plugins/grch/testcontent/assets/js/raw.js'
         ]
     ];
 }
@@ -69,7 +69,7 @@ You don't need your editorJS field to be jsonable. Remove it from $jsonable prop
 In all your models where editorsjs field converts to html blocks you need to do these steps:
 
 1. Remove ConvertEditor trait `use ConvertEditor;` from your model;
-2. Add array property `$implement` and add to it `'ReaZzon.Editor.Behaviors.ConvertToHtml'`
+2. Add array property `$implement` and add to it `'Grch.Editor.Behaviors.ConvertToHtml'`
 
     Example:
     ```

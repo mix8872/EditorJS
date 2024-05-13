@@ -14,7 +14,7 @@ class Settings extends Model
     /**
      * @var string A unique code
      */
-    public $settingsCode = 'reazzon_editor_settings';
+    public $settingsCode = 'grch_editor_settings';
 
     /**
      * @var string Reference to field configuration

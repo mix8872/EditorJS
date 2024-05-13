@@ -28,8 +28,8 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name' => 'reazzon.editor::lang.plugin.name',
-            'description' => 'reazzon.editor::lang.plugin.description',
+            'name' => 'grch.editor::lang.plugin.name',
+            'description' => 'grch.editor::lang.plugin.description',
             'author' => 'Nick Khaetsky',
             'icon' => 'icon-pencil-square-o',
             'homepage' => 'https://github.com/FlusherDock1/EditorJS'
@@ -67,9 +67,9 @@ class Plugin extends PluginBase
     public function registerPermissions()
     {
         return [
-            'reazzon.editor.access_settings' => [
-                'tab' => 'reazzon.editor::lang.plugin.name',
-                'label' => 'reazzon.editor::lang.permission.access_settings'
+            'grch.editor.access_settings' => [
+                'tab' => 'grch.editor::lang.plugin.name',
+                'label' => 'grch.editor::lang.permission.access_settings'
             ],
         ];
     }
@@ -83,11 +83,11 @@ class Plugin extends PluginBase
     {
         return [
             'settings' => [
-                'label' => 'reazzon.editor::lang.settings.menu_label',
-                'description' => 'reazzon.editor::lang.settings.menu_description',
-                'category' => 'reazzon.editor::lang.plugin.name',
+                'label' => 'grch.editor::lang.settings.menu_label',
+                'description' => 'grch.editor::lang.settings.menu_description',
+                'category' => 'grch.editor::lang.plugin.name',
                 'class' => 'Grch\Editor\Models\Settings',
-                'permissions' => ['reazzon.editor.access_settings'],
+                'permissions' => ['grch.editor.access_settings'],
                 'icon' => 'icon-cog',
                 'order' => 500,
             ]
@@ -148,7 +148,7 @@ class Plugin extends PluginBase
                         'allowedTags' => 'i,b,u,a[href],span[class],code[class],mark[class]'
                     ]
                 ],
-                'view' => 'reazzon.editor::blocks.paragraph'
+                'view' => 'grch.editor::blocks.paragraph'
             ],
             'header' => [
                 'settings' => [
@@ -165,9 +165,9 @@ class Plugin extends PluginBase
                     ]
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/header.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/header.js',
                 ],
-                'view' => 'reazzon.editor::blocks.heading'
+                'view' => 'grch.editor::blocks.heading'
             ],
             'Marker' => [
                 'settings' => [
@@ -175,7 +175,7 @@ class Plugin extends PluginBase
                     'shortcut' => 'CMD+SHIFT+M',
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/marker.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/marker.js',
                 ]
             ],
             'image' => [
@@ -220,9 +220,9 @@ class Plugin extends PluginBase
                     ]
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/image.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/image.js',
                 ],
-                'view' => 'reazzon.editor::blocks.image'
+                'view' => 'grch.editor::blocks.image'
             ],
             'attaches' => [
                 'settings' => [
@@ -254,9 +254,9 @@ class Plugin extends PluginBase
                     ]
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/attaches.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/attaches.js',
                 ],
-                'view' => 'reazzon.editor::blocks.attaches'
+                'view' => 'grch.editor::blocks.attaches'
             ],
             'linkTool' => [
                 'settings' => [
@@ -290,9 +290,9 @@ class Plugin extends PluginBase
                     ]
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/link.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/link.js',
                 ],
-                'view' => 'reazzon.editor::blocks.link'
+                'view' => 'grch.editor::blocks.link'
             ],
             'list' => [
                 'settings' => [
@@ -319,9 +319,9 @@ class Plugin extends PluginBase
                     ],
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/list.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/list.js',
                 ],
-                'view' => 'reazzon.editor::blocks.list'
+                'view' => 'grch.editor::blocks.list'
             ],
             'checklist' => [
                 'settings' => [
@@ -350,9 +350,9 @@ class Plugin extends PluginBase
                     ],
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/checklist.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/checklist.js',
                 ],
-                'view' => 'reazzon.editor::blocks.checklist'
+                'view' => 'grch.editor::blocks.checklist'
             ],
             'table' => [
                 'settings' => [
@@ -379,9 +379,9 @@ class Plugin extends PluginBase
                     ]
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/table.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/table.js',
                 ],
-                'view' => 'reazzon.editor::blocks.table'
+                'view' => 'grch.editor::blocks.table'
             ],
             'quote' => [
                 'settings' => [
@@ -405,9 +405,9 @@ class Plugin extends PluginBase
                     ],
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/quote.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/quote.js',
                 ],
-                'view' => 'reazzon.editor::blocks.quote'
+                'view' => 'grch.editor::blocks.quote'
             ],
             'code' => [
                 'settings' => [
@@ -419,9 +419,9 @@ class Plugin extends PluginBase
                     ]
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/code.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/code.js',
                 ],
-                'view' => 'reazzon.editor::blocks.code'
+                'view' => 'grch.editor::blocks.code'
             ],
             'embed' => [
                 'settings' => [
@@ -449,9 +449,9 @@ class Plugin extends PluginBase
                     ],
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/embed.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/embed.js',
                 ],
-                'view' => 'reazzon.editor::blocks.embed'
+                'view' => 'grch.editor::blocks.embed'
             ],
             'raw' => [
                 'settings' => [
@@ -464,26 +464,26 @@ class Plugin extends PluginBase
                     ]
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/raw.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/raw.js',
                 ],
-                'view' => 'reazzon.editor::blocks.raw'
+                'view' => 'grch.editor::blocks.raw'
             ],
             'delimiter' => [
                 'settings' => [
                     'class' => 'Delimiter'
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/delimiter.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/delimiter.js',
                 ],
                 'validation' => [],
-                'view' => 'reazzon.editor::blocks.delimiter'
+                'view' => 'grch.editor::blocks.delimiter'
             ],
             'underline' => [
                 'settings' => [
                     'class' => 'Underline'
                 ],
                 'scripts' => [
-                    '/plugins/reazzon/editor/formwidgets/editorjs/assets/js/tools/underline.js',
+                    '/plugins/grch/editor/formwidgets/editorjs/assets/js/tools/underline.js',
                 ]
             ]
         ];
