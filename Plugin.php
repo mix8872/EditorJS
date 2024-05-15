@@ -52,10 +52,7 @@ class Plugin extends PluginBase
      */
     public function boot()
     {
-        Event::subscribe(ExtendRainLabBlog::class);
         Event::subscribe(ExtendRainLabStaticPages::class);
-        Event::subscribe(ExtendLovataGoodNews::class);
-        Event::subscribe(ExtendIndicatorNews::class);
         Event::subscribe(ProcessMLFields::class);
     }
 
@@ -81,17 +78,7 @@ class Plugin extends PluginBase
      */
     public function registerSettings()
     {
-        return [
-            'settings' => [
-                'label' => 'grch.editor::lang.settings.menu_label',
-                'description' => 'grch.editor::lang.settings.menu_description',
-                'category' => 'grch.editor::lang.plugin.name',
-                'class' => 'Grch\Editor\Models\Settings',
-                'permissions' => ['grch.editor.access_settings'],
-                'icon' => 'icon-cog',
-                'order' => 500,
-            ]
-        ];
+        return [];
     }
 
     /**
