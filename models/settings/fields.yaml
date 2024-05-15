@@ -1,0 +1,45 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+    fields:
+        warning:
+            type: partial
+            tab: 'grch.editor::lang.settings.integrations.name'
+            path: $/grch/editor/models/settings/warning.htm
+
+        section_standard:
+            label: 'grch.editor::lang.settings.integrations.section_standard.name'
+            tab: 'grch.editor::lang.settings.integrations.name'
+            type: section
+            span: left
+
+        section_custom:
+            label: 'grch.editor::lang.settings.integrations.section_custom.name'
+            tab: 'grch.editor::lang.settings.integrations.name'
+            type: section
+            span: right
+
+        integration_static_pages:
+            label: 'grch.editor::lang.settings.integrations.static_pages.name'
+            comment: 'grch.editor::lang.settings.integrations.static_pages.comment'
+            tab: 'grch.editor::lang.settings.integrations.name'
+            type: switch
+            span: left
+
+        disable_secure_endpoints:
+            label: 'grch.editor::lang.settings.editor.disable_secure_endpoints.name'
+            comment: 'grch.editor::lang.settings.editor.disable_secure_endpoints.comment'
+            tab: 'grch.editor::lang.settings.editor.name'
+            type: switch
+            span: left
+            default: false
+
+        disable_secure_backendauth:
+            label: 'grch.editor::lang.settings.editor.disable_secure_backendauth.name'
+            comment: 'grch.editor::lang.settings.editor.disable_secure_backendauth.comment'
+            tab: 'grch.editor::lang.settings.editor.name'
+            type: switch
+            span: left
+            default: false
