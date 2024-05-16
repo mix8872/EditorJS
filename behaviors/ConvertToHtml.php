@@ -56,7 +56,7 @@ class ConvertToHtml extends ConvertableBehavior
     public static function renderFromThemePartial($partial, $data)
     {
         try {
-            Event::fire('grch.editor.block.render', [$partial, &$data]);
+            \Event::fire('grch.editor.block.render', [$partial, &$data]);
             return (new Controller)->renderPartial($partial, $data);
         } catch (\Exception $e) {
             trace_log($e);
